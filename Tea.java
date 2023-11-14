@@ -44,8 +44,6 @@ public class Tea {
 
     //toString method
     public String toString() {
-        return "Type: " + getType() +
-                "\nPrice: $" + getPrice() +
-                "\nBoba: " + getBoba();
+        return "Type: " + getType() + "\nPrice: $" + getPrice() + "\nBoba: " + getBoba();
     }
 }
